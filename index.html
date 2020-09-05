@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Số nguyên tố</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+            for(var num=2;num<100;num++){
+                var uoc=0;    //đếm ước
+                for (var i=2;i<=Math.sqrt(num);i++){
+                    if(num%i==0){
+                        uoc++;
+                    }
+                }
+                if(uoc==0){
+                    document.write("</br>", num)
+            }
+            }
+        </script>
+    </body>
+</html>
